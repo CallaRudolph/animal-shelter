@@ -1,5 +1,6 @@
 body {
   background-color: lemonchiffon;
+  font-family: sans-serif;
 }
 .main {
   width: 100%;
@@ -9,6 +10,14 @@ body {
   width: 20%;
   float:left;
   margin: 1.5%;
+  border: 2px solid purple;
+  padding: 4px;
+  margin: 12px;
+  background-color: cyan;
+}
+.img {
+  width: 20%;
+  height: 20%;
 }
 h6 {
   display:block;
