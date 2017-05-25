@@ -1,9 +1,26 @@
 body {
-  background-color: lemonchiffon;
+  background-color: aquamarine;
   font-family: sans-serif;
 }
+
 .main {
   width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serid;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align:center;
+  font-family: monospace;
+  font: lucida;
+  text-shadow: white 2px 5px;
 }
 
 .column {
@@ -13,13 +30,35 @@ body {
   border: 2px solid purple;
   padding: 4px;
   margin: 12px;
-  background-color: cyan;
+  background-color: mediumturquoise;
 }
-.img {
-  width: 20%;
-  height: 20%;
+
+.column img {
+  width: 175px;
+  height: 175px;
 }
+
 h6 {
   display:block;
   clear: left;
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 480px) {
+  body {
+    background-color: red;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
 }
